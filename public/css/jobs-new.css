@@ -1,0 +1,140 @@
+.page-white{
+    background-color:#f0f0f0;
+    padding-bottom:20px
+}
+.box-job-tabs
+{
+     margin-bottom:20px
+}
+.box-job-tabs 
+{
+    margin:0
+}
+.job-item{
+    padding:10px;
+    padding-left:0;
+    border-bottom:1px dashed #dfdfdf
+}
+
+.box_general{
+    background:#fff;
+    box-shadow:0 1px 1px rgba(0,0,0,.05);
+    border-radius:3px;margin-bottom:25px
+}
+.box_general>h2{
+    font-size:17px;
+    margin:auto;
+    padding:15px;
+    border-bottom:1px solid #eee;
+    background-color:#212f3f;
+    border-radius:3px 3px 0 0;
+    color:#fff
+}
+.box_general>h2.highlight{
+    background-color:#0ca25e
+}
+.box_general .job-over-item:hover{
+    background-color:#f6f6f6
+}
+.box_general .job-over-item:hover:after{
+    background-color:#f6f6f6}
+.job-item{
+    padding:5px 0;margin:auto 15px;border-bottom:1px solid #eee
+}
+
+.text_ellipsis{
+    white-space:nowrap!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important
+}
+
+.img-responsive{
+    width:100%;
+    display:inline-block
+}
+
+.text-silver{
+    color:#999
+}
+.yellow-box-icon{
+    color:#f8d309;font-size:25px;margin-right:10px
+}
+.container-scroll{
+    position:relative;overflow-x:hidden;overflow-y:scroll
+}
+#box-salary-high-jobs .container-scroll{
+    height:685px
+}
+#box-hot-jobs .container-scroll{
+    height:655px
+}
+.box-jobs .salary{
+    padding-right:0
+}
+.box-jobs .address{
+    padding-left:0;
+    padding-right:0
+}
+.box-jobs .address span{
+    font-size:13px
+}
+.job-item .col-job-title .title{
+    margin-bottom:3px
+}
+#box-salary-high-jobs .address{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+#box-job-result{
+    padding:0;
+    border:1px solid #ececec;
+}
+.job-item .col-job-title .row{
+    display:flex;align-items:center
+}
+.job-item .col-job-info .salary{
+    line-height:20px;padding-bottom:10px
+}
+.job-item .col-job-info .salary i{
+    font-size:20px;float:left;margin-right:10px
+}
+.job-item .col-job-info .address{
+    line-height:20px;padding-bottom:10px
+}
+.job-item .col-job-info .address i{
+    font-size:20px;float:left;margin-right:10px
+}
+@media(max-width:991px){
+    .tab-job-list .job-item{padding-right:0
+    }
+    .job-item .col-job-title .row{
+        display:block;align-items:unset
+    }
+    .col-job-title,.col-job-info{
+        font-size:13px
+    }
+    .job-item .col-job-info .salary{
+        line-height:17px;
+        padding-top:5px
+    }
+    .job-item .col-job-info .salary i
+    {   
+        font-size:16px;
+        float:left;
+        margin-right:5px;
+    }
+    .job-item .col-job-info .address
+    {
+        line-height:17px;
+        padding-top:5px
+}
+    .job-item .col-job-info .address i{
+        font-size:16px;float:left;margin-right:5px}
+    }
+@media(min-width:768px){
+    #box-salary-high-jobs .job-over-item .job-item
+    {
+        display:flex;align-items:center
+    }
+}

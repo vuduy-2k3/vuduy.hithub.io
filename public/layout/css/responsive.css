@@ -1,0 +1,27 @@
+
+@media (max-width: 480px) {
+    .mainmenu-area .logo {
+        max-width: 150px;
+        margin-top: -10px;
+    }
+    .mainmenu-area .navbar-brand .slogan{
+        font-size: 8px;
+        /* font-family: "Times New Roman"; */
+        font-style: italic;
+        position: absolute;
+        right: 16px;
+        bottom: -7px;
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+    .mainmenu-area #primary-menu > ul > li {
+        padding: 12px 2px;
+    }
+    .social-menu{
+        text-align: left;
+    }
+}
